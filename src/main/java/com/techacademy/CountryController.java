@@ -14,6 +14,7 @@ public class CountryController {
         this.service = service;
     }
 
+
     // ----- 一覧画面 -----
     @GetMapping("/list")
     public String getList(Model model) {
